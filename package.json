@@ -2,7 +2,7 @@
   "name": "mirrorai-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://MirrorAITech.github.io/mirrorai-website",
+  "homepage": "https://mirroraitech.github.io/mirrorai-website",
   "scripts": {
     "start": "webpack serve --open --mode development",
     "build": "webpack --mode production",
@@ -24,6 +24,7 @@
     "autoprefixer": "^10.4.21",
     "babel-loader": "^9.1.3",
     "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
     "postcss": "^8.5.6",
     "postcss-loader": "^7.3.4",
     "style-loader": "^4.0.0",
