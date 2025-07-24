@@ -11,10 +11,7 @@ import ModelMonitor from './ModelMonitor';
 import AgentMonitor from './AgentMonitor';
 import './index.css';
 
-console.log('🚀 index.js loaded');
 const root = ReactDOM.createRoot(document.getElementById('root'));
-console.log('🔍 root container found:', document.getElementById('root'));
-
 root.render(
   <Router>
     <Routes>
