@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './HomePage';
 import About from './About';
 import Benchmark from './Benchmark';
@@ -11,9 +11,12 @@ import ModelMonitor from './ModelMonitor';
 import AgentMonitor from './AgentMonitor';
 import './index.css';
 
+console.log('🚀 index.js loaded');
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log('🔍 root container found:', document.getElementById('root'));
+
 root.render(
-  <Router basename="/mirrorai-website">
+  <Router>
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/aboutus" element={<About />} />
