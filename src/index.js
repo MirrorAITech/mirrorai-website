@@ -13,7 +13,7 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
+  <Router basename="/mirrorai-website">
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/aboutus" element={<About />} />
