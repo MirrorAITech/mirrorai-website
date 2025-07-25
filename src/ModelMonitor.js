@@ -101,7 +101,7 @@ export default function ModelMonitor() {
     <div className="bg-white text-gray-900 font-sans min-h-screen">
       <header className="bg-white/90 shadow border-b border-blue-100">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-          <div className="flex items-center"><img src="/img/logo.png" alt="MirrorAILOGO" className="h-10 mr-3" /></div>
+          <div className="flex items-center"><img src="img/logo.png" alt="MirrorAILOGO" className="h-10 mr-3" /></div>
           <nav className="hidden md:flex gap-8 text-gray-700">
             <Link to="/" className="hover:text-blue-600">首页</Link>
             <TestingDropdown />
