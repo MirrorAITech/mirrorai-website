@@ -8,7 +8,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'build'),
     clean: true,
-    publicPath: '/mirrorai-website/',
+    publicPath: '/',
   },
   mode: 'development',
   devServer: {

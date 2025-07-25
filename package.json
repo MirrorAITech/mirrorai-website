@@ -2,12 +2,12 @@
   "name": "mirrorai-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://mirroraitech.github.io/mirrorai-website",
+  "homepage": "https://mirrorai.tech",
   "scripts": {
     "start": "webpack serve --open --mode development",
     "build": "webpack --mode production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "cp public/CNAME build/CNAME && gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
