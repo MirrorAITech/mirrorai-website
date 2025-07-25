@@ -145,7 +145,7 @@ export default function HomePage() {
             <p className="text-blue-500 text-sm">愿景：让每一个AI都更安全、更可信。</p>
           </div>
           <div className="flex-1 h-64 flex justify-end">
-            <img src="/img/aboutus.png" alt="MirrorAIAbout" className="h-full object-cover rounded-2xl shadow-lg" />
+            <img src="img/aboutus.png" alt="MirrorAIAbout" className="h-full object-cover rounded-2xl shadow-lg" />
           </div>
         </div>
       </section>
